@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+
+# Large Model Weights (Distribute via HuggingFace or Git LFS)
+model/*.h5
+model/*.keras
+model/*.pb
+model/variables/
+*.h5
+*.keras
+
+# Dataset Image Files (Keep documentation and sample CSV metadata)
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+dataset/**/*.webp
+dataset/*.zip
+dataset/*.tar.gz
+!dataset/README.md
+!dataset/sample_metadata.csv
+
+# User Uploads and Ephemeral Saliency Maps
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Local SQLite databases
+*.db
+backend/database/*.db
+!backend/database/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test coverage & logs
+.coverage
+htmlcov/
+.pytest_cache/
+*.log

@@ -1,0 +1,19 @@
+# DermaFair AI - Production Dependencies
+# Core Web Framework
+Flask>=2.2.0
+Werkzeug>=2.2.0
+gunicorn>=21.0.0
+
+# Deep Learning & Machine Learning
+tensorflow>=2.12.0
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+
+# Computer Vision & Image Processing
+Pillow>=9.5.0
+opencv-python>=4.7.0.72
+
+# Visualization & Telemetry
+matplotlib>=3.7.0
+seaborn>=0.12.0
